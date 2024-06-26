@@ -9,3 +9,4 @@ patches:
 configMapGenerator:
 - name: mykustom-map
   env: config.properties
+  behavior: merge
