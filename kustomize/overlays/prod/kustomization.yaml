@@ -3,8 +3,8 @@ bases:
 
 namespace: prod
 
-patchesStrategicMerge:
-- replicas.yaml
+patches:
+- path: ./replicas.yaml
 
 configMapGenerator:
 - name: mykustom-map
