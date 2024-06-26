@@ -3,7 +3,7 @@ bases:
 
 namespace: prod
 
-patches:
+patchesStrategicMerge:
 - replicas.yaml
 
 configMapGenerator:
